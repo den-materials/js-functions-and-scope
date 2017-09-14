@@ -75,9 +75,9 @@ function speak(words) {
 
 The difference is subtle but important. The first function declaration is assigning an "anonymous" function to a variable. The second function declaration is a named function. The practical difference is that the named function will be processed when the code is interpreted, so the function can be called *before* it's defined. This is due to [variable hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting), the first `speak` variable is hoisted up as `undefined`, while the second is hoisted up as a `function`.
 
-No matter what syntax you use, a function always has:
+No matter what syntax you use, a function has:
 
-- A name
+- A name (if not anonymous)
 - An optional list of parameters - or information to use - defined by the parenthesis before the opening curly brace
 - Statements inside the function - this is the code executed every time the function is called
 
@@ -260,8 +260,8 @@ Declare `getFullName` in the `displayPerson` function scope.
 10. Found `removeYears` variable declaration.
 Declare `removeYears` in Global scope.
  - `removeYears` is a function; an inner scope is created.
-11. Found age and `minusYears` variable declarations.  
-Declare these in the function's scope.
+11. Found `age` and `minusYears` variable declarations.  
+Declare these in the `removeYears` function's scope.
 
 ![removeYears](https://i.imgur.com/cA6kaw5.png)
 
@@ -285,9 +285,9 @@ Global scope can be really confusing when you run into namespace clashes. You wo
 
 Local scope refers to any scope that is defined inside the global one. If you define a function, this function will have its own scope inside the body of the function. Any function defined inside another function also has a local scope and can refer to the parent scope, but this logic doesn't work the other way around.
 
-#### Function scope - can't get inside!
+#### Function scope - can't get something inside the box!
 
-A variable defined inside a function *cannot* be accessed outside the function. For instance:
+A variable defined inside a function *cannot* be accessed from outside the function. For instance:
 
 ```javascript
 var a = "this is the global scope";
@@ -300,7 +300,7 @@ alert(b);
 
 This will throw a reference error because the variable `b` is not accessible outside of the function where it is defined.
 
-#### Accessing variables in the same scope
+#### Function scope - but you can get something outside the box!
 
 In the logic defined above, the fact that a variable cannot be accessed by the parent scope works only in one way.
 
