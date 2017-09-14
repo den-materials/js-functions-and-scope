@@ -6,7 +6,10 @@ Adapted by: Zeb Girouard
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--We desperately need more coding activities or CFUs in here, so much lecture! -->
+
 <!--Actually 9:59 -->
+<!--9:45 WDI5 -->
 <!--9:47 WDI4 -->
 <!-- 9:55 5 minutes -->
 
@@ -45,6 +48,7 @@ Adapted by: Zeb Girouard
 
 <!-- CFU Fist-to-five on these three points -->
 
+<!--9:49 WDI5 -->
 <!--10:01 -->
 <!--9:50 WDI4 -->
 <!--10:00 10 minutes -->
@@ -122,6 +126,7 @@ shout('world!', sayHello);
 
 <!--[CFU] Think-pair-share: What is the difference between an anonymous and named function?-->
 
+<!--WDI5 10:03 -->
 <!--ACtually 10:16 -->
 <!--Actually 10:15 -->
 <!--10:10 15 minutes -->
@@ -195,6 +200,7 @@ Here's a quick summary of what your computer does when you're looking to run you
 
 <!-- CFU: Think-pair-share, what is the process to turn your JavaScript code into 0s and 1s -->
 
+<!--WDI5 10:15 -->
 <!--10:30 -->
 <!--10:29 WDI4 -->
 <!--10:25 20 minutes -->
@@ -266,6 +272,7 @@ Declare these in the `removeYears` function's scope.
 ![removeYears](https://i.imgur.com/cA6kaw5.png)
 
 <!--10:39 WDI4 -->
+<!--10:23 WDI5 -->
 
 ## The Terminology of Scope
 
@@ -343,6 +350,8 @@ getScore();
 => 6
 ```
 
+<!--WDI5 10:35 after stretch break -->
+
 ## `this`
 
 A function's `this` keyword is always referring to the current **context**. It is a reserved word in the language.
@@ -382,6 +391,7 @@ wdi.whatsTheName();
 
 <!--[CFU] Catchphrase - partner up and pick function, scope, or variable-->
 
+<!--WDI5 10:43 turning over to devs -->
 <!--Actually 10:54 -->
 <!--10:55 WDI4 -->
 <!--10:45 15 minutes -->
@@ -433,6 +443,7 @@ The only way to master JavaScript scope is to practice. You'll have a lot of con
 
 <!--11:14 after exercise solutions WDI4 -->
 <!--Finally ended 11:19 after going through exercise solutions -->
+<!--11:05 WDI5 -->
 
 For more details about functions and scope, click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
 
