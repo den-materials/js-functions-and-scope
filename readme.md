@@ -8,6 +8,7 @@ Adapted by: Zeb Girouard
 
 <!--We desperately need more coding activities or CFUs in here, so much lecture! -->
 
+<!--WDI6 9:47 -->
 <!--Actually 9:59 -->
 <!--9:45 WDI5 -->
 <!--9:47 WDI4 -->
@@ -200,6 +201,7 @@ Here's a quick summary of what your computer does when you're looking to run you
 
 <!-- CFU: Think-pair-share, what is the process to turn your JavaScript code into 0s and 1s -->
 
+<!--WDI6 10:25 -->
 <!--WDI5 10:15 -->
 <!--10:30 -->
 <!--10:29 WDI4 -->
@@ -351,6 +353,7 @@ getScore();
 ```
 
 <!--WDI5 10:35 after stretch break -->
+<!--WDI6 10:
 
 ## `this`
 
@@ -444,6 +447,7 @@ The only way to master JavaScript scope is to practice. You'll have a lot of con
 <!--11:14 after exercise solutions WDI4 -->
 <!--Finally ended 11:19 after going through exercise solutions -->
 <!--11:05 WDI5 -->
+<!--WDI6 11:16 -->
 
 For more details about functions and scope, click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
 
